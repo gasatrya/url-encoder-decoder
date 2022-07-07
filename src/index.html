@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>URL Encode & Decode Online</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <header class="container my-5">
+            <div class="text-center">
+                <a
+                    class="me-4 text-decoration-none text-light"
+                    href="https://github.com/gasatrya/url-encoder-decoder"
+                    target="_blank"
+                    >Source Code</a
+                >
+
+                <a class="text-decoration-none text-light" href="https://gasatrya.dev/" target="_blank">
+                    Project by Gasatrya
+                </a>
+            </div>
+        </header>
+
+        <div class="container">
+            <header class="w-75 mx-auto my-5">
+                <h1 class="display-4 text-center fw-bold text-light">URL Encoder / Decoder</h1>
+                <p class="text-center fs-5 text-light text-opacity-75">
+                    This tool is a simple and easy online tool to encode or decode URLs.
+                </p>
+            </header>
+
+            <form class="container my-5">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <div class="mb-3">
+                            <label for="input" class="form-label fw-semibold">Input</label>
+                            <textarea
+                                class="form-control text-light"
+                                id="input"
+                                rows="8"
+                                placeholder="Type or paste your input string here..."
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom fw-semibold me-2" id="encode">Encode</button>
+                        <button type="submit" class="btn btn-custom fw-semibold me-2" id="decode">Decode</button>
+                        <button type="submit" class="btn btn-secondary fw-semibold d-none" id="copy">Copy</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
